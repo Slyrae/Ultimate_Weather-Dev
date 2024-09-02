@@ -1,0 +1,23 @@
+# mods.toml
+modLoader="javafml" # The mod loader type - should always be javafml for Forge mods
+loaderVersion="[1.20,)" # This indicates the minimum version of Forge required
+license="GNU v3" # License under which your mod is distributed (use appropriate license)
+issueTrackerURL="https://github.com/your-repo/issues" # Optional but recommended
+
+[[mods]]
+modId="ultimateweather" # This must match your mod's namespace exactly
+version="1.20.1-0.0.1" # Version of your mod
+displayName="Ultimate Weather" # Name of your mod as it will appear in Minecraft
+
+# Optional metadata fields
+
+updateJSONURL="https://example.com/update.json"
+displayURL="https://example.com"
+
+logoFile="assets/ultimateweather/logo.png" # Optional logo file location
+
+credits="Created by Slyrae"
+authors="Slyrae"
+description="""
+Ultimate Weather mod adds dynamic and realistic weather changes to Minecraft, enhancing gameplay with new weather types and effects.
+"""
